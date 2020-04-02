@@ -15,6 +15,9 @@ curl -XPOST -H "Content-type: application/json" -d '{"value1":1}' 'localhost:808
 
 
 
+
+
+
 Run below curl commands also by removing @Valid annotation in NestedData.java class.
 
 curl -XPOST -H "Content-type: application/json" -d '{"value1":1,"value2":"2","value3":"3", "nestedData":{"value1":1,"value2":"2","value3":"3"}}' 'localhost:8081/nested-data-validated'
