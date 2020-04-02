@@ -14,7 +14,7 @@ public class NestedData {
     @NotEmpty(message = "{value3.empty}")
     private String value3;
 
-    //see what happen by removing @Valid annoatation
+    //see what happen by removing @Valid and also by using @Validated annoatation
     @Valid
     private NestedData nestedData;
 }
