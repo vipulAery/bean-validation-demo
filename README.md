@@ -1,5 +1,6 @@
 # bean-validation-demo
 curl commands for verification of using validation annotations:
+
 curl -XPOST -H "Content-type: application/json" -d '{"value1":1,"value2":"2","value3":"3"}' 'localhost:8081/data-valid'
 
 curl -XPOST -H "Content-type: application/json" -d '{"value1":1,"value2":"2"}' 'localhost:8081/data-valid'
